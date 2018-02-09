@@ -5,7 +5,7 @@ import Container from './Container';
 
 function App() {
   return (
-    <div>
+    <div className="app-wrapper">
       <Container />
     </div>
   );

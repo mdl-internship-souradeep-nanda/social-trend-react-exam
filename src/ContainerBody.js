@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './css/ContainerBody.css';
+
 import Trend from './Trend';
 
 import Trends from './content/Trends.json';
@@ -11,7 +13,7 @@ function ContainerBody() {
     </li>
   ));
   return (
-    <div>
+    <div className="container-body-wrapper">
       <ul>
         {trendArray}
       </ul>
