@@ -8,15 +8,13 @@ import Trends from './content/Trends.json';
 
 function ContainerBody() {
   const trendArray = Trends.map(trend => (
-    <li>
+    <div>
       <Trend title={trend.title} isTrending={trend.isTrending} />
-    </li>
+    </div>
   ));
   return (
     <div className="container-body-wrapper">
-      <ul>
-        {trendArray}
-      </ul>
+      {trendArray}
     </div>
   );
 }

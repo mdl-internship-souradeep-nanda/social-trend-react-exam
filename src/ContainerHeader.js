@@ -7,7 +7,7 @@ import './css/ContainerHeader.css';
 function ContainerHeader() {
   return (
     <div className="container-header-wrapper">
-      <h1> {Header.title} </h1>
+      {Header.title}
     </div>
   );
 }

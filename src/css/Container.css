@@ -1,3 +1,11 @@
 .container-wrapper{
   background: #52bad1;
+  width: 95%;
+  margin:auto;
+/*
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  */
+  box-shadow: -8px 8px 16px #cbcbcb;
 }

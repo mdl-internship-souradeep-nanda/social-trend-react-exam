@@ -5,14 +5,12 @@ import './css/Trend.css';
 import logo from './media/trend-up.svg';
 
 function Trend(props) {
-  const myStyle = {
-    width: '80px',
-    visibility: props.isTrending ? 'show' : 'hidden',
-  };
+  const logoDiv = <div className="logo-span"><img src={logo} alt="logo" /></div>;
+  const logoHolder = props.isTrending ? logoDiv : null;
   return (
     <div className="trend-wrapper">
-      <span> #{props.title} </span>
-      <img src={logo} alt="logo" style={myStyle} />
+      <div className="title-span"> #{props.title} </div>
+      {logoHolder}
     </div>
   );
 }

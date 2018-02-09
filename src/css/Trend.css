@@ -1,7 +1,17 @@
-li{
-  list-style-type: none;
+.trend-wrapper{
+  padding:2%;
+  padding-bottom: 3em;
 }
 
-.trend-wrapper{
-  display: block;
+.title-span{
+  float:left;
+  font-size: 1.5em;
+}
+
+.logo-span{
+  float:right;
+}
+
+img{
+  width: 3em;
 }
